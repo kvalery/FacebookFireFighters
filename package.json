@@ -1,0 +1,36 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvalery/FacebookFireFighters.git"
+  },
+  "author": "",
+  "devDependencies": {
+    "angular": "^1.5.6",
+    "bootstrap-sass": "^3.3.6",
+    "node-sass": "^3.4.1",
+    "angular-route": "~1.4.7",
+    "angular-sanitize": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular-mocks": "~1.4.7",
+    "angular-animate": "~1.4.7",
+    "angular-messages": "~1.4.7",
+    "angular-toastr": "~1.5.0",
+    "angular-i18n": "~1.4.7",
+    "spa-server": "^0.1.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server",
+    "build-css": "node-sass --include-path scss app/styles/styles.scss --output-style compressed app/app.css",
+    "watch-css": "node-sass -w --include-path scss app/styles/styles.scss --output-style compressed app/app.css"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvalery/FacebookFireFighters/issues"
+  },
+  "homepage": "https://github.com/kvalery/FacebookFireFighters#readme"
+}
