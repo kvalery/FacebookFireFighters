@@ -2,5 +2,6 @@
 
 var FFFApp = angular.module('FFFApp', [
     'ngRoute',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'ezfb'
 ]);
